@@ -4,7 +4,8 @@
 
 The main function of this software is to automatically find words in a symmetrical crossword puzzle. The additional features are sorting out (using heapsort) the given words in alphabetical order and removing the letters of the searched words from the crossword puzzle.
 
-### Features
+---
+## Features
 
 The example shown below utilized the text file from `test-cases/test_3x3.txt`
 
