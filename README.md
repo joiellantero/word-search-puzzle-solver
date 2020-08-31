@@ -4,39 +4,6 @@
 
 The main function of this software is to automatically find words in a symmetrical crossword puzzle. The additional features are sorting out (using heapsort) the given words in alphabetical order and removing the letters of the searched words from the crossword puzzle.
 
----
-## Downloading the software
-
-- All the `code` required to get started
-
-### Clone
-
-- Clone this repo to your local machine using `https://github.com/joiellantero/crossword-puzzle-solver.git`
-
-### Setup
-
-- If you haven't, install the gcc compiler using `https://gcc.gnu.org/install/`
-
-> Compile the program
-
-```shell
-$ make cps
-```
-
-> Setup your crossword puzzle
-
-Feel free to use the sample crossword puzzles in the `test-cases` folder.
-
-The only thing we need to do now is to create the text file containing the words that we want the program to search and the crossword puzzle itself. I have included some samples in the `test-cases` folder; and I have included a template as well in the `crossword-puzzle` folder to serve as a guide in creating the required text files. You must strictly follow the formatting of the text files for the program to function properly.
-
-### Run
-
-> Run the code below to deploy the program in your terminal
-
-```shell
-$ ./cps < crossword-puzzle/cp.txt
-```
-
 ### Features
 
 The example shown below utilized the text file from `test-cases/test_3x3.txt`
@@ -88,6 +55,39 @@ Modified Board:
 . . .
 . . .
 . . .
+```
+
+---
+## Downloading the software
+
+- All the `code` required to get started
+
+### Clone
+
+- Clone this repo to your local machine using `https://github.com/joiellantero/crossword-puzzle-solver.git`
+
+### Setup
+
+- If you haven't, install the gcc compiler using `https://gcc.gnu.org/install/`
+
+> Compile the program
+
+```shell
+$ make cps
+```
+
+> Setup your crossword puzzle
+
+I have included some samples in the `test-cases` folder and feel free to use the sample crossword puzzles in the `test-cases` folder.
+
+If you want to provide your own crossword puzzle, you need to create your own text file that contains the words to be searched and the symmetrical crossword puzzle itself. I have included a template in the `crossword-puzzle` folder named `cp.txt` to serve as a guide in creating the required text files. You must strictly follow the formatting of the text files for the program to function properly. Check out my samples in the `test-cases` folder to checkout how I made my text files.
+
+### Run
+
+> Run the code below to deploy the program in your terminal
+
+```shell
+$ ./cps < crossword-puzzle/cp.txt
 ```
 
 ---
