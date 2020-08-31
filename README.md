@@ -92,7 +92,7 @@ Modified Board:
 
 ---
 ## Author
-- [Joie Angelo Llantero](joiellantero.codes)
+- [Joie Angelo Llantero](https://joiellantero.codes)
 
 ---
 ## License
