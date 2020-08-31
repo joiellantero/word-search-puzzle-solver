@@ -1,0 +1,8 @@
+<input the n number of words here>
+<enter word 1>
+<enter word 2>
+<enter word n>
+<input the n number of rows/columns here>
+<enter crossword row 1>
+<enter crossword row 2>
+<enter crossword row n>
