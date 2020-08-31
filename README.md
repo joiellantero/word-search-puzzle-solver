@@ -69,7 +69,7 @@ Modified Board:
 
 ### Setup
 
-- If you haven't, install the gcc compiler using `https://gcc.gnu.org/install/`
+- If you haven't installed the gcc compiler, go to `https://gcc.gnu.org/install/` to install it.
 
 > Compile the program
 
