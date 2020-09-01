@@ -5,7 +5,7 @@
   * Author: Joie Angelo Llantero
 	* Author URL: https://joiellantero.codes
 	* Github: https://github.com/joiellantero/crossword-puzzle-solver
-  * Crossword Puzzle Solver MIT License 2020
+  * Crossword Puzzle Solver Copyright (c) 2020 Joie Llantero
 
 */
 
