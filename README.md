@@ -69,7 +69,7 @@ Modified Board:
 
 ### Setup
 
-- If you haven't, install the gcc compiler using `https://gcc.gnu.org/install/`
+- If you haven't installed the gcc compiler, go to `https://gcc.gnu.org/install/` to install it.
 
 > Compile the program
 
@@ -79,7 +79,7 @@ $ make cps
 
 > Setup your crossword puzzle
 
-I have included some samples in the `test-cases` folder and feel free to use the sample crossword puzzles in the `test-cases` folder.
+I have included some sample crossword puzzles in the `test-cases` folder. Feel free to use them to test out this program.
 
 If you want to provide your own crossword puzzle, you need to create your own text file that contains the words to be searched and the symmetrical crossword puzzle itself. I have included a template in the `crossword-puzzle` folder named `cp.txt` to serve as a guide in creating the required text files. You must strictly follow the formatting of the text files for the program to function properly. Check out my samples in the `test-cases` folder to checkout how I made my text files.
 
