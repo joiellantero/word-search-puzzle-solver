@@ -1,6 +1,6 @@
 # Crossword Puzzle Solver
 
-*DISCLAIMER: Using this software requires some basic knowledge in C programming.*
+*DISCLAIMER: Using this software requires some basic knowledge in running a C programming.*
 
 The main function of this software is to automatically find words in a symmetrical crossword puzzle. The additional features are sorting out (using heapsort) the given words in alphabetical order and removing the letters of the searched words from the crossword puzzle.
 
