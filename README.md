@@ -2,7 +2,7 @@
 
 *DISCLAIMER: Using this software requires some basic knowledge in running a C programming.*
 
-The main function of this software is to automatically find words in a symmetrical crossword puzzle. The additional features are sorting out (using heapsort) the given words in alphabetical order and removing the letters of the searched words from the crossword puzzle.
+The main function of this software is to automatically find words in a symmetrical word search puzzle. The additional features are sorting out (using heapsort) the given words in alphabetical order and removing the letters of the searched words from the word search puzzle.
 
 ---
 ## Features
@@ -74,21 +74,21 @@ Modified Board:
 > Compile the program
 
 ```shell
-$ make cps
+$ make wsps
 ```
 
 > Setup your word search puzzle
 
 I have included some sample word search puzzles in the `test-cases` folder. Feel free to use them to test out this program.
 
-If you want to provide your own word search puzzle, you need to create your own text file that contains the words to be searched and the symmetrical word search puzzle itself. I have included a template in the `word-search-puzzle` folder named `cp.txt` to serve as a guide in creating the required text files. You must strictly follow the formatting of the text files for the program to function properly. Check out my samples in the `test-cases` folder to checkout how I made my text files.
+If you want to provide your own word search puzzle, you need to create your own text file that contains the words to be searched and the symmetrical word search puzzle itself. I have included a template in the `word-search-puzzle` folder named `wsps`.txt` to serve as a guide in creating the required text files. You must strictly follow the formatting of the text files for the program to function properly. Check out my samples in the `test-cases` folder to checkout how I made my text files.
 
 ### Run
 
 > Run the code below to deploy the program in your terminal
 
 ```shell
-$ ./cps < word-search-puzzle/cp.txt
+$ ./wsps < word-search-puzzle/wsps.txt
 ```
 
 ---

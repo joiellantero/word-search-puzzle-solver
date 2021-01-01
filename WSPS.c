@@ -1,18 +1,18 @@
 /*
 
-	* Crossword Puzzle Solver
-	* Version: 1.0.0
+	* Word Search Puzzle Solver
+	* Version: 1.0.1
   * Author: Joie Angelo Llantero
 	* Author URL: https://joiellantero.codes
-	* Github: https://github.com/joiellantero/crossword-puzzle-solver
-  * Crossword Puzzle Solver Copyright (c) 2020 Joie Llantero
+	* Github: https://github.com/joiellantero/word-search-puzzle-solver
+  * Word Search Puzzle Solver Copyright (c) 2020 Joie Llantero
 
 */
 
 
 #include<stdio.h>
 #include<string.h>
-#include"CPS_lib.h"
+#include"WSPS_lib.h"
 
 int main (){
 

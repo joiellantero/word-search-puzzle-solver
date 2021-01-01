@@ -1,5 +1,5 @@
-CSRC=CPS.c CPS_lib.c
-PROGNAME=cps
+CSRC=WSPS.c WSPS_lib.c
+PROGNAME=wsps
 CC=gcc
 CFLAGS=-W -Wall -Werror
 LFLAGS=-lm
