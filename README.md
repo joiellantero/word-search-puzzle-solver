@@ -1,8 +1,6 @@
 # Word Search Puzzle Solver
 
-*DISCLAIMER: Using this software requires some basic knowledge in running a C programming.*
-
-The main function of this software is to automatically find words in a symmetrical word search puzzle. The additional features are sorting out (using heapsort) the given words in alphabetical order and removing the letters of the searched words from the word search puzzle.
+The main function of this software is to automatically find words in a ***symmetrical*** word search puzzle. The additional features are sorting out (using heapsort) the given words in alphabetical order and removing the letters of the searched words from the word search puzzle.
 
 ---
 ## Features
