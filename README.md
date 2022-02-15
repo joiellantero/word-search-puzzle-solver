@@ -22,18 +22,18 @@ war
 ```
 - Note that the `Input n:` has no number next to it as the imported text file doesn't get displayed on the terminal. But this doesn't mean that the program wasn't able to read the integer from the text file.
 
-> Input the word search puzzle
+  > Input the word search puzzle
 
-```shell
-Input m:
-Board:
-r a r
-a o e
-w e d
-```
+  ```shell
+  Input m:
+  Board:
+  r a r
+  a o e
+  w e d
+  ```
 - 'Input m' takes in a single integer, i.e., the number of rows or columns; since, word search puzzles are always assumed symmetrical so providing either the height or width would suffice.
 
-> View the solutions
+  > View the solutions
 
   ```shell
   Solutions:
@@ -48,7 +48,7 @@ w e d
   
 - The program is able to provide you the coordinates (using indices) and the direction of the word.
 
-> View the board wihtout the letters of the search words
+  > View the board wihtout the letters of the search words
 
   ```shell
   Modified Board:
@@ -69,9 +69,9 @@ w e d
   ```
 - Setup your word search puzzle
 
-I have included some sample word search puzzles in the `test-cases` folder. Feel free to use them to test out this program.
+  I have included some sample word search puzzles in the `test-cases` folder. Feel free to use them to test out this program.
 
-If you want to provide your own word search puzzle, you need to create your own text file that contains the words to be searched and the symmetrical word search puzzle itself. I have included a template, i.e., `wsps.txt`, in the `word-search-puzzle` folder to serve as a guide in creating the required text files. You must strictly follow the formatting of the text files for the program to function properly. Check out my samples in the `test-cases` folder to checkout how I made my text files.
+  If you want to provide your own word search puzzle, you need to create your own text file that contains the words to be searched and the symmetrical word search puzzle itself. I have included a template, i.e., `wsps.txt`, in the `word-search-puzzle` folder to serve as a guide in creating the required text files. You must strictly follow the formatting of the text files for the program to function properly. Check out my samples in the `test-cases` folder to checkout how I made my text files.
 
 - Run
 
