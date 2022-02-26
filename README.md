@@ -80,7 +80,7 @@ war
   ```
 
 ## Author
-- [Joie Angelo Llantero](https://joiellantero.tech)
+- Joie Llantero
 
 
 ## License
